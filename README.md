@@ -11,7 +11,7 @@ Elements may be one of the following data types:
 double, integer, text (DvString), time (DvTime), Time Interval (DvEvent).
 A data object will hold data of only one type.
 
-Data objects may have lists of metadata attached, and metadata is itself stored as a DVOS object.
+Data objects may have lists of metadata attached, and metadata is also stored as a DVOS object.
 Metadata may itself have metadata attached, resulting in a self similar hierarchy.
 
 All common mathematical operations are supported on the data, and metadata checking
